@@ -17,6 +17,9 @@ from langchain.retrievers.multi_query import MultiQueryRetriever
 import streamlit as st
 import tempfile
 import os
+from streamlit_extras.buy_me_a_coffee import button
+
+button(username="namseokyoo", floating=True, width=221)
 
 st.title("ChatPDF")
 st.write("---")
